@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.table tbody tr {
+    /* display: flex;
+    text-align: left;
+    justify-content: space-between; */
+    gap: 40px;
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+}
+.table-body td {
+    border-bottom: 1px solid white;
+    padding: 20px 10px;
+}
+.table-main thead tr {
+    display: none;
+}
+.table-body {
+    margin-top: 30px;
+}
+
+.table-main {
+    width: 100%;
+    border-spacing: 0 20px; /* space between rows */
+    border-collapse: separate;
+}
+
+.table td {
+    padding: 20px 10px;
+}

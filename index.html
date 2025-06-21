@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+ <title>Coin Tracker</title>
+</head>
+<body>
+    <div class="div">
+        <div class="container">
+            <input type="text" placeholder="Search By Name or Symbol" id="searchInput">
+
+            <!-- ✅ Corrected: Give distinct names to buttons to avoid confusion -->
+            <button class="button" id="sortByMarketCap" type="button">Sort by MKT Cap</button>
+            <button class="button" id="sortByChange" type="button">Sort by 24h % Change</button>
+        </div>
+
+        <section class="table-content">
+            <table class="table-main">
+                <thead>
+                    <tr>
+                           <th>Name</th>
+                            <th>Symbol</th>
+                            <th>Price</th>
+                            <th>Market Cap</th>
+                            <th>24h %</th>
+                    </tr>
+                </thead>
+                <tbody class="table-body">
+                    <!-- ✅ This is correct: dynamic rows will be added here via JS -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
